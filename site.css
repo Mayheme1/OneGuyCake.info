@@ -1,0 +1,72 @@
+style.css
+header, footer{
+    background-color: lightpink;
+    border:solid 1px purple;
+    border-radius: 4px;
+    font-family: Lucida Bright, Georgia, serif;
+    }
+footer{
+    padding: 10px;
+    border-radius: 3px;
+    color:blue;
+}
+
+body{
+    font-family: Lucida Bright, Georgia, serif;
+    font-size: 16px;
+    
+}
+
+#main{
+    border: solid 1px #800080;
+    border-radius: 5px;
+    color: #ff0000;
+    margin:20px 10px 20px 0px;
+    padding:5px;
+}
+.simple-form {
+    padding: 4px;
+    width: 300px;
+    position:static;
+}
+
+.simple-form label{
+	font-weight: bold;
+
+}
+
+.simple-form input[type=text],
+.simple-form select,
+.simple-form input[type=password],
+.simple-form textarea {
+	width: 150px
+}
+.simple-form input[type=submit]{
+	background-color:#FFB6C1;
+	border: solid 1px #800080;
+	border-radius: 8px;
+	color: #202020;
+	margin: 20px 0px;
+	padding: 5px;
+}
+.bordered-image{
+    border: solid 1px #800080;
+    border-radius: 8px;
+}
+.container{
+    width: 989px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    padding: 5px;
+}
+html, body{
+    padding:0;
+    margin:0;
+}
+#results{
+    padding: 2px;
+    width: 600px;
+    background-color: yellow;
+    font-weight:bold;
+    
+}
